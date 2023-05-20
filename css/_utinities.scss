@@ -1,0 +1,117 @@
+// ===================================
+// 變數
+// ===================================
+
+$fs_title: 20px;
+$fs_txt: 16px;
+$margin_base: 4px;
+
+
+// ===================================
+// 容器
+// ===================================
+
+.container {
+    max-width: 640px;
+    margin: auto;
+}
+
+
+
+// ===================================
+// 物件
+// ===================================
+
+.mt-1 {
+    margin-top: $margin_base;
+}
+
+.mt-2 {
+    margin-top: $margin_base*2;
+}
+
+// .
+// .
+// .
+
+.mt-5 {
+    margin-top: $margin_base*5;
+}
+
+.mt-6 {
+    margin-top: $margin_base*6;
+}
+
+.mr-5 {
+    margin-right: $margin_base*5;
+}
+
+.mr-6 {
+    margin-right: $margin_base*6;
+}
+
+.mb-5 {
+    margin-bottom: $margin_base*5;
+}
+
+.mb-6 {
+    margin-bottom: $margin_base*6;
+}
+
+.ml-5 {
+    margin-left: $margin_base*5;
+}
+
+.ml-6 {
+    margin-left: $margin_base*6;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fxw {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.title {
+    font-size: $fs_title;
+    line-height: 1.2;
+}
+
+.txt {
+    font-size: $fs_txt;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img_small {
+    width: 96px;
+}
+
+.img_big {
+    width: 216px;
+}
